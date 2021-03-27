@@ -1,0 +1,34 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+boby {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.sticky-list {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  left: 0;
+}
+
+.card-body {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+p.card-text {
+  max-height: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+/*# sourceMappingURL=main.css.map */
